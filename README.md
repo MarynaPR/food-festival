@@ -7,7 +7,8 @@
 `npm install -D file-loader`
 `npm i image-webpack-loader`
 "start:dev": "webpack serve --mode=development"
-`npm run start:dev`
+`npm run start:dev` -to open code locally on localhost:8080
+`npm i -D webpack-pwa-manifest`
 
 
 npm run start:dev
@@ -21,3 +22,4 @@ VS Code extension Bracket Pair Colorize-help parse long configuration code with 
 [regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 [using service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers)
 [estimating available storage space](https://developers.google.com/web/updates/2017/08/estimating-available-storage-space)
+[web app manifest](https://caniuse.com/web-app-manifest)

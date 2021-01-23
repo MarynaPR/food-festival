@@ -47,7 +47,7 @@ const config = {
             analyzerMode: "static", // the report outputs to an HTML file in the dist folder
         }),
         new WebpackPwaManifest({
-            publicPath: "/",
+            publicPath: "./",
             name: "Food Event",
             short_name: "Foodies",
             description: "An app that allows you to view upcoming food events.",
@@ -57,8 +57,9 @@ const config = {
             fingerprints: false,
             inject: false,
             icons: [{
-                // src: path.resolve("assets/img/icons/icon-512x512.png"),
-                src: path.resolve("assets/icons/icon_128x128.png"),
+                src: path.resolve("assets/img/icons/icon-512x512.png"),
+                //  src: path.resolve("assets/icons/icon_128x128.png"),
+                //src: __dirname + "assets/img/icons/icon-512x512.png",
                 sizes: [96, 128, 192, 256, 384, 512],
                 destination: path.join("assets", "icons")
             }]
